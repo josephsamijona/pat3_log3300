@@ -96,7 +96,7 @@ Pour lancer ce projet localement sur votre machine, suivez ces étapes :
 ### Captures d'Écran des Nouvelles Fonctionnalités
 
 1. **Création de la Branche "superadmin" :**
-   ![Création de la Branche "superadmin"](https://github.com/josephsamijona/pat3_log3300/blob/main/0.1.jpg)
+   ![Création de la Branche "superadmin"](https://github.com/josephsamijona/pat3_log3300/blob/main/0.1.JPG)
 
 2. **Page de Login du Super Administrateur :**
    ![Page de Login du Super Administrateur](https://github.com/josephsamijona/pat3_log3300/blob/main/8.jpg)
