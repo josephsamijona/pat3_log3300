@@ -1,6 +1,6 @@
 # Application de Gestion des Étudiants de l'École 🎓
 
-![Création de la Base de Données](0.jpg)
+![Création de la Base de Données](https://github.com/josephsamijona/pat3_log3300/blob/main/0.JPG)
 ![Lancement du Serveur](1.jpg)
 ![Liste des Étudiants](2.jpg)
 
