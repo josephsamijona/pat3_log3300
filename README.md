@@ -37,61 +37,62 @@ Cette application web, développée avec Django et Bootstrap, permet de gérer l
    
 8. **Page de Login du Super Administrateur :** J'ai ajouté une page de login pour le super administrateur avec les champs d'authentification.
 
-   ![Page de Login du Super Administrateur](https://github.com/josephsamijona/pat3_log3300/blob/main/8.jpg)
+   ![Page de Login du Super Administrateur](https://github.com/josephsamijona/pat3_log3300/blob/main/8.JPG)
 
    - **Implémentation :**
-     - Utilisation de la vue générique `LoginView` de Django pour gérer l'authentification du super administrateur.
-     - Création du template `superadmin_login.html` pour personnaliser l'apparence de la page de login.
-     - Ajout des URLs dans `urls.py` pour rediriger vers la vue de login.
+     - Utilisation du dashboard administratif natif de Django pour gérer l'authentification du super administrateur.
+     - Création d'un super utilisateur avec le nom d'utilisateur "sam" et le mot de passe "monnaie1234".
+     - Ajout des URLs dans `urls.py` pour rediriger vers la page de login du dashboard administratif.
 
 9. **Page d'Administration :** Création d'une page d'administration pour gérer les opérations liées aux étudiants comme l'ajout, la modification et la suppression.
 
-   ![Page d'Administration](https://github.com/josephsamijona/pat3_log3300/blob/main/4.jpg)
+   ![Page d'Administration](https://github.com/josephsamijona/pat3_log3300/blob/main/4.JPG)
 
    - **Implémentation :**
-     - Utilisation de la vue générique `ListView` de Django pour afficher la liste des étudiants dans la page d'administration.
-     - Personnalisation du template `admin_dashboard.html` pour intégrer Bootstrap et améliorer l'interface.
-     - Ajout des liens pour les détails des étudiants et les actions d'ajout, de modification et de suppression.
+     - Utilisation du dashboard administratif natif de Django pour afficher la liste des étudiants et gérer les opérations CRUD.
+     - Création d'un super utilisateur avec le nom d'utilisateur "sam" et le mot de passe "monnaie1234".
+     - Personnalisation des modèles Django pour inclure les informations nécessaires sur les étudiants.
 
-10. **Ajout d'Étudiants :** J'ai créé une fonctionnalité permettant d'ajouter de nouveaux étudiants à la base de données via le tableau de bord de l'administrateur.
+10. **Ajout d'Étudiants :** J'ai utilisé le dashboard administratif pour ajouter de nouveaux étudiants à la base de données.
 
     - **Implémentation :**
-      - Utilisation de la vue générique `CreateView` de Django pour gérer l'ajout d'un nouvel étudiant.
-      - Création du formulaire `StudentForm` dans `forms.py` pour collecter les informations de l'étudiant.
-      - Validation des données du formulaire et ajout dans la base de données.
+      - Accès au dashboard administratif avec les informations du super utilisateur "sam".
+      - Utilisation de l'interface du dashboard pour ajouter les informations des étudiants dans la base de données.
+      - Validation des données et ajout des étudiants via le dashboard.
 
 11. **Affichage des Informations des Étudiants :** Sur la page principale (`i.html`), j'ai inclus l'affichage des informations des étudiants, y compris les cinq nouveaux étudiants ajoutés.
 
     - **Implémentation :**
-      - Modification du template `listes.html` pour afficher les informations des étudiants en utilisant des boucles Django.
+      - Utilisation du dashboard administratif pour afficher les informations des étudiants.
+      - Aucune création de template HTML, l'affichage est géré par le dashboard natif de Django.
+      - Les données sont affichées en utilisant les fonctionnalités intégrées du dashboard administratif.
 
 ### Comment J'ai Implémenté les Nouvelles Fonctionnalités 🛠️
 
 - **Page de Login du Super Administrateur :**
-  - J'ai utilisé la vue générique `LoginView` de Django pour gérer l'authentification du super administrateur.
-  - Personnalisation du template `superadmin_login.html` pour l'apparence de la page de login.
-  - Configuration des URLs dans `urls.py` pour rediriger vers la vue de login.
+  - J'ai utilisé le dashboard administratif natif de Django pour gérer l'authentification du super administrateur.
+  - Création d'un super utilisateur avec le nom d'utilisateur "sam" et le mot de passe "monnaie1234".
+  - Configuration des URLs dans `urls.py` pour rediriger vers la page de login du dashboard administratif.
 
 - **Page d'Administration :**
-  - J'ai utilisé la vue générique `ListView` de Django pour afficher la liste des étudiants dans la page d'administration.
-  - Personnalisation du template `admin_dashboard.html` pour intégrer Bootstrap et améliorer l'interface.
-  - Ajout des liens pour les détails des étudiants et les actions d'ajout, de modification et de suppression.
+  - J'ai utilisé le dashboard administratif natif de Django pour afficher la liste des étudiants et gérer les opérations CRUD.
+  - Création d'un super utilisateur avec le nom d'utilisateur "sam" et le mot de passe "monnaie1234".
+  - Personnalisation des modèles Django pour inclure les informations nécessaires sur les étudiants.
 
 - **Ajout d'Étudiants :**
-  - J'ai utilisé la vue générique `CreateView` de Django pour gérer l'ajout d'un nouvel étudiant.
-  - Création du formulaire `StudentForm` dans `forms.py` pour collecter les informations de l'étudiant.
-  - Validation des données du formulaire et ajout dans la base de données.
+  - J'ai utilisé le dashboard administratif pour ajouter de nouveaux étudiants à la base de données.
+  - Accès au dashboard administratif avec les informations du super utilisateur "sam".
+  - Utilisation de l'interface du dashboard pour ajouter les informations des étudiants dans la base de données.
 
 - **Affichage des Informations des Étudiants :**
-  - J'ai modifié le template `listes.html` pour afficher les informations des étudiants en utilisant des boucles Django.
+  - J'ai utilisé le dashboard administratif pour afficher les informations des étudiants.
+  - Aucune création de template HTML, l'affichage est géré par le dashboard natif de Django.
+  - Les données sont affichées en utilisant les fonctionnalités intégrées du dashboard administratif.
 
 ### Comment Lancer le Projet Localement
 
 Pour lancer ce projet localement sur votre machine, suivez ces étapes :
 
-1. Clonez ce dépôt GitHub sur votre machine en utilisant la commande suivante :
-   ```bash
-   git clone  https://github.com/josephsamijona/pat3_log3300.git
 
 ### Captures d'Écran des Nouvelles Fonctionnalités
 
