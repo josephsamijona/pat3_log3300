@@ -99,23 +99,23 @@ Pour lancer ce projet localement sur votre machine, suivez ces étapes :
    ![Création de la Branche "superadmin"](https://github.com/josephsamijona/pat3_log3300/blob/main/0.1.JPG)
 
 2. **Page de Login du Super Administrateur :**
-   ![Page de Login du Super Administrateur](https://github.com/josephsamijona/pat3_log3300/blob/main/8.jpg)
+   ![Page de Login du Super Administrateur](https://github.com/josephsamijona/pat3_log3300/blob/main/8.JPG)
 
 3. **Lancement du Serveur :**
-   ![Lancement du Serveur](https://github.com/josephsamijona/pat3_log3300/blob/main/3.jpg)
+   ![Lancement du Serveur](https://github.com/josephsamijona/pat3_log3300/blob/main/3.JPG)
 
 4. **Page d'Administration :**
-   ![Page d'Administration](https://github.com/josephsamijona/pat3_log3300/blob/main/4.jpg)
+   ![Page d'Administration](https://github.com/josephsamijona/pat3_log3300/blob/main/4.JPG)
 
 5. **Liste des Étudiants :**
-   ![Liste des Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/5.jpg)
+   ![Liste des Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/5.JPG)
 
 6. **Ajout du Premier Étudiant :**
-   ![Ajout du Premier Étudiant](https://github.com/josephsamijona/pat3_log3300/blob/main/6.jpg)
+   ![Ajout du Premier Étudiant](https://github.com/josephsamijona/pat3_log3300/blob/main/6.JPG)
 
 7. **Ajout des 4 Autres Étudiants :**
-   ![Ajout des 4 Autres Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/7.jpg)
+   ![Ajout des 4 Autres Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/7.JPG)
 
 8. **Informations sur les Étudiants :**
-   ![Informations sur les Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/9.jpg)
+   ![Informations sur les Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/9.JPG)
 
