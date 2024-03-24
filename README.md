@@ -33,3 +33,89 @@ Cette application web, développée avec Django et Bootstrap, permet de gérer l
    <div class="container">
        <div class="display-4 text-center">Informations sur les étudiants</div>
    </div>
+### Nouvelles Fonctionnalités Ajoutées
+   
+8. **Page de Login du Super Administrateur :** J'ai ajouté une page de login pour le super administrateur avec les champs d'authentification.
+
+   ![Page de Login du Super Administrateur](https://github.com/josephsamijona/pat3_log3300/blob/main/8.jpg)
+
+   - **Implémentation :**
+     - Utilisation de la vue générique `LoginView` de Django pour gérer l'authentification du super administrateur.
+     - Création du template `superadmin_login.html` pour personnaliser l'apparence de la page de login.
+     - Ajout des URLs dans `urls.py` pour rediriger vers la vue de login.
+
+9. **Page d'Administration :** Création d'une page d'administration pour gérer les opérations liées aux étudiants comme l'ajout, la modification et la suppression.
+
+   ![Page d'Administration](https://github.com/josephsamijona/pat3_log3300/blob/main/4.jpg)
+
+   - **Implémentation :**
+     - Utilisation de la vue générique `ListView` de Django pour afficher la liste des étudiants dans la page d'administration.
+     - Personnalisation du template `admin_dashboard.html` pour intégrer Bootstrap et améliorer l'interface.
+     - Ajout des liens pour les détails des étudiants et les actions d'ajout, de modification et de suppression.
+
+10. **Ajout d'Étudiants :** J'ai créé une fonctionnalité permettant d'ajouter de nouveaux étudiants à la base de données via le tableau de bord de l'administrateur.
+
+    - **Implémentation :**
+      - Utilisation de la vue générique `CreateView` de Django pour gérer l'ajout d'un nouvel étudiant.
+      - Création du formulaire `StudentForm` dans `forms.py` pour collecter les informations de l'étudiant.
+      - Validation des données du formulaire et ajout dans la base de données.
+
+11. **Affichage des Informations des Étudiants :** Sur la page principale (`i.html`), j'ai inclus l'affichage des informations des étudiants, y compris les cinq nouveaux étudiants ajoutés.
+
+    - **Implémentation :**
+      - Modification du template `listes.html` pour afficher les informations des étudiants en utilisant des boucles Django.
+
+### Comment J'ai Implémenté les Nouvelles Fonctionnalités 🛠️
+
+- **Page de Login du Super Administrateur :**
+  - J'ai utilisé la vue générique `LoginView` de Django pour gérer l'authentification du super administrateur.
+  - Personnalisation du template `superadmin_login.html` pour l'apparence de la page de login.
+  - Configuration des URLs dans `urls.py` pour rediriger vers la vue de login.
+
+- **Page d'Administration :**
+  - J'ai utilisé la vue générique `ListView` de Django pour afficher la liste des étudiants dans la page d'administration.
+  - Personnalisation du template `admin_dashboard.html` pour intégrer Bootstrap et améliorer l'interface.
+  - Ajout des liens pour les détails des étudiants et les actions d'ajout, de modification et de suppression.
+
+- **Ajout d'Étudiants :**
+  - J'ai utilisé la vue générique `CreateView` de Django pour gérer l'ajout d'un nouvel étudiant.
+  - Création du formulaire `StudentForm` dans `forms.py` pour collecter les informations de l'étudiant.
+  - Validation des données du formulaire et ajout dans la base de données.
+
+- **Affichage des Informations des Étudiants :**
+  - J'ai modifié le template `listes.html` pour afficher les informations des étudiants en utilisant des boucles Django.
+
+### Comment Lancer le Projet Localement
+
+Pour lancer ce projet localement sur votre machine, suivez ces étapes :
+
+1. Clonez ce dépôt GitHub sur votre machine en utilisant la commande suivante :
+   ```bash
+   git clone  https://github.com/josephsamijona/pat3_log3300.git
+
+### Captures d'Écran des Nouvelles Fonctionnalités
+
+1. **Création de la Branche "superadmin" :**
+   ![Création de la Branche "superadmin"](https://github.com/josephsamijona/pat3_log3300/blob/main/0.1.jpg)
+
+2. **Page de Login du Super Administrateur :**
+   ![Page de Login du Super Administrateur](https://github.com/josephsamijona/pat3_log3300/blob/main/8.jpg)
+
+3. **Lancement du Serveur :**
+   ![Lancement du Serveur](https://github.com/josephsamijona/pat3_log3300/blob/main/3.jpg)
+
+4. **Page d'Administration :**
+   ![Page d'Administration](https://github.com/josephsamijona/pat3_log3300/blob/main/4.jpg)
+
+5. **Liste des Étudiants :**
+   ![Liste des Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/5.jpg)
+
+6. **Ajout du Premier Étudiant :**
+   ![Ajout du Premier Étudiant](https://github.com/josephsamijona/pat3_log3300/blob/main/6.jpg)
+
+7. **Ajout des 4 Autres Étudiants :**
+   ![Ajout des 4 Autres Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/7.jpg)
+
+8. **Informations sur les Étudiants :**
+   ![Informations sur les Étudiants](https://github.com/josephsamijona/pat3_log3300/blob/main/9.jpg)
+
